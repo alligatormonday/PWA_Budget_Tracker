@@ -46,7 +46,9 @@ self.addEventListener("fetch", e => {
                     return res;
                 } else if (e.request.headers.get("accept").includes("text/html")) {
                     // return the cached home page for all requests for html pages
-                    return caches.match("/");
+                    const res = new Response(caches.match("/"),{status: 200})
+                    return res;
+                    // return caches.match("/");
                 }
             });
         })
