@@ -1,5 +1,5 @@
-const CACHE_NAME = "static-cache-v3";
-const DATA_CACHE_NAME = "data-cache-v3";
+const CACHE_NAME = "static-cache-v9";
+const DATA_CACHE_NAME = "data-cache-v9";
 const FILES_TO_CACHE = [
     "/",
     "/index.js",
@@ -46,9 +46,9 @@ self.addEventListener("fetch", e => {
                     return res;
                 } else if (e.request.headers.get("accept").includes("text/html")) {
                     // return the cached home page for all requests for html pages
-                    const res = new Response(caches.match("/"),{status: 200})
-                    return res;
-                    // return caches.match("/");
+                    // const res = new Response(caches.match("/"),{status: 200})
+                    // return res;
+                    return caches.match("/");
                 }
             });
         })
