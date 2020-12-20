@@ -9,7 +9,7 @@ fetch("/api/transaction")
     console.log(data)
     
     // save db data on global variable
-    transactions = data || []
+    transactions = Object.keys(data).length > 0 ? data : [];
 
     populateTotal();
     populateTable();
