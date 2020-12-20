@@ -32,7 +32,7 @@ This application utilizes MongoDB, MongoDB Atlas, Mongoose, and Node.js.
 
 ![Image of DEMO application](public/assets/DEMO_image.png)
 
-[View Deployment](https://radiant-badlands-41474.herokuapp.com/)
+[View Deployment](https://whispering-ridge-63266.herokuapp.com/)
 
 ## Installation: 
 Clone the repo, and run 'npm install'. 
@@ -45,12 +45,12 @@ Run 'npm run start' to start application. Go to your local host 3000 port to beg
   * 💌  Email: joey@joeyjepson.com 
  
   * 👤  GitHub Username: [alligatormonday](https://github.com/alligatormonday) 
-  
+
   ## Credits: 
  
   * 👤  GitHub User: [Joey Brown](https://github.com/joeybrown-ctrl) - helped me with setting up service worker and indexedDB
 
-  * 👤  GitHub User: [Andrew Moses](https://github.com/andrewmosesdrive) - helped me with refactoring code
+  * 👤  GitHub User: [Andrew Moses](https://github.com/andrewmosesdrive) - helped me with refactoring code and Heroku deployment
 
   ## License: 
  
