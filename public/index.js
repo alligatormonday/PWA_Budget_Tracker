@@ -6,10 +6,8 @@ fetch("/api/transaction")
     return response.json();
   })
   .then(data => {
-    console.log(data)
-    
     // save db data on global variable
-    transactions = Object.keys(data).length > 0 ? data : [];
+    transactions = data;
 
     populateTotal();
     populateTable();
