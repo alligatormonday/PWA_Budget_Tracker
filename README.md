@@ -26,7 +26,7 @@ Video of demo: [PWA_Budget_Tracker_DEMO](https://drive.google.com/file/d/1tUnha7
   * [License](#License) 
 
   ## Description: 
-A PWA application that lets a user track their budget. Users can add funds or subtract funds. If a user doesn't have access to the internet or goes offline, then this application will still allow them to input their information. Once they have online access again, their input will have been received and the data sent during offline use will rendered saved as if it was taken in during online functionality. 
+A PWA application that lets a user track their budget. Users can add funds or subtract funds. If a user doesn't have access to the internet or goes offline, then this application will still allow them to input their information. Once they have online access again, their input will have been received and the data sent during offline use will be rendered, then saved as if it was taken in during online functionality. 
 
 This application utilizes MongoDB, MongoDB Atlas, Mongoose, and Node.js.
 
